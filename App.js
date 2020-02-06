@@ -63,7 +63,7 @@ const App = () => {
 
   const handleSubmit = () => {
     const obj = {
-      id: new Date(),
+      id: JSON.stringify(new Date()),
       task: text,
     };
 
